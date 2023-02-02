@@ -1,0 +1,29 @@
+{
+  "name": "shadowfightgame",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "firebase": "^9.10.0",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.2",
+    "sweetalert": "^2.1.2",
+    "websocket": "^1.0.34"
+  },
+  "keywords": [],
+  "description": ""
+}
